@@ -34,7 +34,7 @@ int main(int argc, char* argv[])
             case '/':
             {
                 if (y != 0)
-                    cout << x << "/" << y << "=" << (double)x / y;
+                    cout << x << "/" << y << "=" << (double)x / (double)y;
                 else
                     cout << "err";
                 break;
